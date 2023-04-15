@@ -1,0 +1,810 @@
+Archive member included because of file (symbol)
+
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              ./LCD.o (__udivmodhi4)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./APP.o (__do_copy_data)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./APP.o (__do_clear_bss)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./APP.o (__fixunssfsi)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./APP.o (__mulsf3)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./APP.o (__gtsf2)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./APP.o (__ltsf2)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                              ./APP.o (strcmp)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./ADC.o
+LOAD ./APP.o
+LOAD ./DIO.o
+LOAD ./EEPROM.o
+LOAD ./Keypad.o
+LOAD ./LCD.o
+LOAD ./LED.o
+LOAD ./SERVO.o
+LOAD ./SPI.o
+LOAD ./TIMER0.o
+LOAD ./TWI.o
+LOAD ./UART.o
+LOAD ./main.o
+LOAD d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x4246
+ *(.vectors)
+ .vectors       0x00000000       0x54 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./ADC.o
+ .text          0x00000092        0x0 ./APP.o
+ .text          0x00000092        0x0 ./DIO.o
+ .text          0x00000092        0x0 ./EEPROM.o
+ .text          0x00000092        0x0 ./Keypad.o
+ .text          0x00000092        0x0 ./LCD.o
+ .text          0x00000092        0x0 ./LED.o
+ .text          0x00000092        0x0 ./SERVO.o
+ .text          0x00000092        0x0 ./SPI.o
+ .text          0x00000092        0x0 ./TIMER0.o
+ .text          0x00000092        0x0 ./TWI.o
+ .text          0x00000092        0x0 ./UART.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000092        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0x58 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000092                __fixunssfsi
+ .text          0x000000ea      0x354 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000382                __subsf3
+                0x000003e4                __addsf3
+ .text          0x0000043e      0x1f4 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000043e                __mulsf3
+ .text          0x00000632       0x60 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x00000632                __gtsf2
+ .text          0x00000692       0x60 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x00000692                __gesf2
+ .text          0x000006f2       0x60 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x000006f2                __ltsf2
+ .text          0x00000752       0xa8 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x00000752                __fixsfsi
+ .text          0x000007fa        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x000007fa        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x000007fa        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x000007fa      0x1aa d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x000007fa                __pack_f
+ .text          0x000009a4       0xf0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x000009a4                __unpack_f
+ .text          0x00000a94       0xb2 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000a94                __fpcmp_parts_f
+ .text          0x00000b46        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                0x00000b46                . = ALIGN (0x2)
+ *(.text.*)
+ .text.ADC_vInit
+                0x00000b46       0x7e ./ADC.o
+                0x00000b46                ADC_vInit
+ .text.ADC_vReadFlag
+                0x00000bc4       0x22 ./ADC.o
+                0x00000bc4                ADC_vReadFlag
+ .text.ADC_vGetAnalogVal
+                0x00000be6       0x60 ./ADC.o
+                0x00000be6                ADC_vGetAnalogVal
+ .text.ADC_vOperateAdc
+                0x00000c46       0x2e ./ADC.o
+                0x00000c46                ADC_vOperateAdc
+ .text.CheckAdminPassword
+                0x00000c74      0x3c6 ./APP.o
+                0x00000c74                CheckAdminPassword
+ .text.CheckUserPassword
+                0x0000103a      0x3c6 ./APP.o
+                0x0000103a                CheckUserPassword
+ .text.APP      0x00001400      0x69a ./APP.o
+                0x00001400                APP
+ .text.DIO_vSetPortDirection
+                0x00001a9a       0x5c ./DIO.o
+                0x00001a9a                DIO_vSetPortDirection
+ .text.DIO_vSetPortValue
+                0x00001af6       0x5c ./DIO.o
+                0x00001af6                DIO_vSetPortValue
+ .text.DIO_vClrPortValue
+                0x00001b52       0x54 ./DIO.o
+                0x00001b52                DIO_vClrPortValue
+ .text.DIO_u8GetPortValue
+                0x00001ba6       0x5c ./DIO.o
+                0x00001ba6                DIO_u8GetPortValue
+ .text.DIO_vtogPortValue
+                0x00001c02       0x70 ./DIO.o
+                0x00001c02                DIO_vtogPortValue
+ .text.DIO_vSetPinDir
+                0x00001c72      0x1ae ./DIO.o
+                0x00001c72                DIO_vSetPinDir
+ .text.DIO_vSetPinVal
+                0x00001e20       0xd0 ./DIO.o
+                0x00001e20                DIO_vSetPinVal
+ .text.DIO_vClrPinVal
+                0x00001ef0       0xd8 ./DIO.o
+                0x00001ef0                DIO_vClrPinVal
+ .text.DIO_vTogPinVal
+                0x00001fc8       0xd0 ./DIO.o
+                0x00001fc8                DIO_vTogPinVal
+ .text.DIO_u8GetPinVal
+                0x00002098       0xde ./DIO.o
+                0x00002098                DIO_u8GetPinVal
+ .text.EEPROM_WriteByte
+                0x00002176      0x136 ./EEPROM.o
+                0x00002176                EEPROM_WriteByte
+ .text.EEPROM_ReadByte
+                0x000022ac       0x52 ./EEPROM.o
+                0x000022ac                EEPROM_ReadByte
+ .text.KEYPAD_vPortInit
+                0x000022fe       0x94 ./Keypad.o
+                0x000022fe                KEYPAD_vPortInit
+ .text.KEYPAD_u8GetPressedKey
+                0x00002392      0x220 ./Keypad.o
+                0x00002392                KEYPAD_u8GetPressedKey
+ .text.LCD_vLcdInit
+                0x000025b2      0x52a ./LCD.o
+                0x000025b2                LCD_vLcdInit
+ .text.LCD_vSendCommand
+                0x00002adc      0x270 ./LCD.o
+                0x00002adc                LCD_vSendCommand
+ .text.LCD_vWriteCharacter
+                0x00002d4c      0x270 ./LCD.o
+                0x00002d4c                LCD_vWriteCharacter
+ .text.LCD_VWriteString
+                0x00002fbc       0x52 ./LCD.o
+                0x00002fbc                LCD_VWriteString
+ .text.LCD_vLcdClear
+                0x0000300e       0x14 ./LCD.o
+                0x0000300e                LCD_vLcdClear
+ .text.LCD_vLcdGoto
+                0x00003022       0x22 ./LCD.o
+                0x00003022                LCD_vLcdGoto
+ .text.LCD_u8GetSize
+                0x00003044       0x44 ./LCD.o
+                0x00003044                LCD_u8GetSize
+ .text.LCD_vNumToString
+                0x00003088      0x1ba ./LCD.o
+                0x00003088                LCD_vNumToString
+ .text.Led_Init
+                0x00003242       0x38 ./LED.o
+                0x00003242                Led_Init
+ .text.SERVO_PWM_TMR2
+                0x0000327a       0x44 ./SERVO.o
+                0x0000327a                SERVO_PWM_TMR2
+ .text.SPI_vMasterInit
+                0x000032be       0xb6 ./SPI.o
+                0x000032be                SPI_vMasterInit
+ .text.SPI_u8TranCeive
+                0x00003374       0x2c ./SPI.o
+                0x00003374                SPI_u8TranCeive
+ .text.SPI_ResetSlave
+                0x000033a0      0x126 ./SPI.o
+                0x000033a0                SPI_ResetSlave
+ .text.TIMER0_vTimer0Init
+                0x000034c6       0x94 ./TIMER0.o
+                0x000034c6                TIMER0_vTimer0Init
+ .text.TIMER0_CALLBACK
+                0x0000355a       0x2c ./TIMER0.o
+                0x0000355a                TIMER0_CALLBACK
+ .text.ISR      0x00003586       0x34 ./TIMER0.o
+                0x00003586                ISR
+ .text.TIMER0_vOperateTimer0
+                0x000035ba       0x16 ./TIMER0.o
+                0x000035ba                TIMER0_vOperateTimer0
+ .text.SERVO_CTC
+                0x000035d0       0x66 ./TIMER0.o
+                0x000035d0                SERVO_CTC
+ .text.TWI_vInitMaster
+                0x00003636       0x64 ./TWI.o
+                0x00003636                TWI_vInitMaster
+ .text.TWI_vInitSlave
+                0x0000369a       0x3a ./TWI.o
+                0x0000369a                TWI_vInitSlave
+ .text.TWI_SendStartCondition
+                0x000036d4      0x16a ./TWI.o
+                0x000036d4                TWI_SendStartCondition
+ .text.TWI_SendRepeatedStart
+                0x0000383e      0x16a ./TWI.o
+                0x0000383e                TWI_SendRepeatedStart
+ .text.TWI_SendSlaveAddresWithWrite
+                0x000039a8      0x184 ./TWI.o
+                0x000039a8                TWI_SendSlaveAddresWithWrite
+ .text.TWI_SendSlaveAddresWithRead
+                0x00003b2c      0x184 ./TWI.o
+                0x00003b2c                TWI_SendSlaveAddresWithRead
+ .text.TWI_MasterWriteDataByte
+                0x00003cb0      0x166 ./TWI.o
+                0x00003cb0                TWI_MasterWriteDataByte
+ .text.TWI_MasterReadDataByte
+                0x00003e16      0x16c ./TWI.o
+                0x00003e16                TWI_MasterReadDataByte
+ .text.TWI_SendStopCondition
+                0x00003f82       0x2a ./TWI.o
+                0x00003f82                TWI_SendStopCondition
+ .text.UART_vInit
+                0x00003fac       0x3a ./UART.o
+                0x00003fac                UART_vInit
+ .text.UART_vReceive
+                0x00003fe6       0x1e ./UART.o
+                0x00003fe6                UART_vReceive
+ .text.UART_vTransmit
+                0x00004004       0x4e ./UART.o
+                0x00004004                UART_vTransmit
+ .text.main     0x00004052      0x148 ./main.o
+                0x00004052                main
+ .text.libgcc   0x0000419a       0x28 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000419a                __udivmodhi4
+ .text.libgcc   0x000041c2        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000041c2        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000041c2        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000041c2       0x38 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000041c2                __prologue_saves__
+ .text.libgcc   0x000041fa       0x36 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000041fa                __epilogue_restores__
+ .text.avr-libc
+                0x00004230       0x12 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                0x00004230                strcmp
+                0x00004242                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00004242        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00004242                exit
+                0x00004242                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00004242        0x4 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00004246                _etext = .
+
+.data           0x00800060       0xfa load address 0x00004246
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./ADC.o
+ .data          0x00800060       0xcf ./APP.o
+ .data          0x0080012f        0x0 ./DIO.o
+ .data          0x0080012f        0x0 ./EEPROM.o
+ .data          0x0080012f        0x0 ./Keypad.o
+ .data          0x0080012f        0x0 ./LCD.o
+ .data          0x0080012f        0x0 ./LED.o
+ .data          0x0080012f        0x0 ./SERVO.o
+ .data          0x0080012f        0x0 ./SPI.o
+ .data          0x0080012f        0x0 ./TIMER0.o
+ .data          0x0080012f        0x0 ./TWI.o
+ .data          0x0080012f        0x0 ./UART.o
+ .data          0x0080012f        0x8 ./main.o
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x00800137        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x00800137        0x8 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800137                __thenan_sf
+ .data          0x0080013f        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x0080013f        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x0080013f        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x0080013f        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x0080013f        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x0080013f        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ *(.data*)
+ .data.ADMIN_PASS
+                0x0080013f        0x5 ./APP.o
+                0x0080013f                ADMIN_PASS
+ .data.USER_PASS
+                0x00800144        0x5 ./APP.o
+                0x00800144                USER_PASS
+ .data.arr      0x00800149       0x10 ./Keypad.o
+                0x00800149                arr
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080015a                . = ALIGN (0x2)
+ *fill*         0x00800159        0x1 00
+                0x0080015a                _edata = .
+                0x0080015a                PROVIDE (__data_end, .)
+
+.bss            0x0080015a        0x8
+                0x0080015a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x0080015a        0x0 ./ADC.o
+ .bss           0x0080015a        0x0 ./APP.o
+ .bss           0x0080015a        0x0 ./DIO.o
+ .bss           0x0080015a        0x0 ./EEPROM.o
+ .bss           0x0080015a        0x0 ./Keypad.o
+ .bss           0x0080015a        0x0 ./LCD.o
+ .bss           0x0080015a        0x0 ./LED.o
+ .bss           0x0080015a        0x0 ./SERVO.o
+ .bss           0x0080015a        0x0 ./SPI.o
+ .bss           0x0080015a        0x0 ./TIMER0.o
+ .bss           0x0080015a        0x0 ./TWI.o
+ .bss           0x0080015a        0x0 ./UART.o
+ .bss           0x0080015a        0x0 ./main.o
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x0080015a        0x0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ *(.bss*)
+ .bss.failsCounter.1818
+                0x0080015a        0x1 ./APP.o
+ .bss.failsCounter.1884
+                0x0080015b        0x1 ./APP.o
+ .bss.oldNum.1744
+                0x0080015c        0x2 ./LCD.o
+ .bss.counter.1525
+                0x0080015e        0x1 ./SERVO.o
+ .bss.GGptr     0x0080015f        0x2 ./TIMER0.o
+                0x0080015f                GGptr
+ .bss.counter.1608
+                0x00800161        0x1 ./TIMER0.o
+ *(COMMON)
+                0x00800162                PROVIDE (__bss_end, .)
+                0x00004246                __data_load_start = LOADADDR (.data)
+                0x00004340                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800162        0x0
+                0x00800162                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800162                PROVIDE (__noinit_end, .)
+                0x00800162                _end = .
+                0x00800162                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x4fe0
+ *(.stab)
+ .stab          0x00000000      0x5e8 ./ADC.o
+ .stab          0x000005e8     0x120c ./APP.o
+                               0x14d0 (size before relaxing)
+ .stab          0x000017f4      0x8ac ./DIO.o
+                                0xb40 (size before relaxing)
+ .stab          0x000020a0      0x39c ./EEPROM.o
+                                0x660 (size before relaxing)
+ .stab          0x0000243c      0x39c ./Keypad.o
+                                0x630 (size before relaxing)
+ .stab          0x000027d8      0xd08 ./LCD.o
+                                0xfa8 (size before relaxing)
+ .stab          0x000034e0      0x1a4 ./LED.o
+                                0x444 (size before relaxing)
+ .stab          0x00003684      0x204 ./SERVO.o
+                                0x498 (size before relaxing)
+ .stab          0x00003888      0x36c ./SPI.o
+                                0x600 (size before relaxing)
+ .stab          0x00003bf4      0x378 ./TIMER0.o
+                                0x630 (size before relaxing)
+ .stab          0x00003f6c      0xb40 ./TWI.o
+                                0xe04 (size before relaxing)
+ .stab          0x00004aac      0x24c ./UART.o
+                                0x510 (size before relaxing)
+ .stab          0x00004cf8      0x2e8 ./main.o
+                                0x648 (size before relaxing)
+
+.stabstr        0x00000000     0x195a
+ *(.stabstr)
+ .stabstr       0x00000000     0x195a ./ADC.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x00000080       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000100       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000120       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x170
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1e d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x0000008c       0x1e d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000aa       0x1e d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000c8       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x000000e8       0x22 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x0000010a       0x1f d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x00000129       0x21 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x0000014a       0x26 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_info     0x00000000     0x1c49
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x27f d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x00000c2f      0x27f d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x00000eae      0x27f d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x0000112d      0x2b0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000013dd      0x12c d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001509      0x2df d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x000017e8      0x251 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00001a39      0x210 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xeeb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x15a d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000005bc      0x15a d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x00000716      0x15a d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000870      0x17f d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x000009ef       0xad d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000a9c      0x1c0 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000c5c      0x154 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000db0      0x13b d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_line     0x00000000      0xdad
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f       0xd3 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000662       0xd3 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x00000735       0xd3 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x00000808      0x109 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000911       0x90 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x000009a1      0x18a d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000b2b      0x14b d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00000c76      0x137 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_frame    0x00000000      0x160
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000a0       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000c0       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x000000e0       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000100       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000120       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000140       0x20 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x28d
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233        0xf d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000242        0x8 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x0000024a        0x8 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000252        0xa d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000025c       0x16 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00000272        0xb d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x0000027d       0x10 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+
+.debug_loc      0x00000000      0x7ce
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0x3c d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000049e       0x3c d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x000004da       0x3c d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x00000516       0x7e d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000594      0x13e d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x000006d2       0xac d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000077e       0x50 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(GRAD_SMART_HOME_MASTER.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 d:/embedded systems/amit/5-microcontroller interfacing/avr kit/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)

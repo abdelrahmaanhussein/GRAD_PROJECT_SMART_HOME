@@ -1,0 +1,90 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(ASM_DEPS)),)
+-include $(ASM_DEPS)
+endif
+ifneq ($(strip $(S_DEPS)),)
+-include $(S_DEPS)
+endif
+ifneq ($(strip $(S_UPPER_DEPS)),)
+-include $(S_UPPER_DEPS)
+endif
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+LSS += \
+GRAD_SMART_HOME_MASTER.lss \
+
+FLASH_IMAGE += \
+GRAD_SMART_HOME_MASTER.hex \
+
+SIZEDUMMY += \
+sizedummy \
+
+AVRDUDEDUMMY += \
+avrdudedummy \
+
+
+# All Target
+all: GRAD_SMART_HOME_MASTER.elf secondary-outputs
+
+# Tool invocations
+GRAD_SMART_HOME_MASTER.elf: $(OBJS) $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: AVR C Linker'
+	avr-gcc -Wl,-Map,GRAD_SMART_HOME_MASTER.map -mmcu=atmega32 -o "GRAD_SMART_HOME_MASTER.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+GRAD_SMART_HOME_MASTER.lss: GRAD_SMART_HOME_MASTER.elf
+	@echo 'Invoking: AVR Create Extended Listing'
+	-avr-objdump -h -S GRAD_SMART_HOME_MASTER.elf  >"GRAD_SMART_HOME_MASTER.lss"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+GRAD_SMART_HOME_MASTER.hex: GRAD_SMART_HOME_MASTER.elf
+	@echo 'Create Flash image (ihex format)'
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex GRAD_SMART_HOME_MASTER.elf  "GRAD_SMART_HOME_MASTER.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+sizedummy: GRAD_SMART_HOME_MASTER.elf
+	@echo 'Invoking: Print Size'
+	-avr-size --format=avr --mcu=atmega32 GRAD_SMART_HOME_MASTER.elf
+	@echo 'Finished building: $@'
+	@echo ' '
+
+avrdudedummy: GRAD_SMART_HOME_MASTER.elf
+	@echo 'Invoking: AVRDude'
+	D:\EMBEDDED SYSTEMS\AMIT\5-MICROCONTROLLER INTERFACING\avr kit\SDK_Win_64\SDK_Win_64\WinAVR\bin\avrdude -pm32 -cusbasp -Uflash:w:GRAD_SMART_HOME_MASTER.hex:a
+	@echo 'Finished building: $@'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(AVRDUDEDUMMY)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) GRAD_SMART_HOME_MASTER.elf
+	-@echo ' '
+
+secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY) $(AVRDUDEDUMMY)
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets
