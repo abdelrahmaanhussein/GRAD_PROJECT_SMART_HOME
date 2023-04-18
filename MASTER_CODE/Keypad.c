@@ -1,3 +1,11 @@
+/*
+ * Keypad.c
+ *  Layer: Hal
+ *  Created on: Dec 13, 2023
+ *      Author: Abdelrahman Hussein
+ */
+
+
 #include"Keypad.h"
 #include"DIO.h"
 u8 arr[4][4]={{'/','*','-','+'},{'=','9','6','3'},{'0','8','5','2'},{'%','7','4','1'}};

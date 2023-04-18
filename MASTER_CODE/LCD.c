@@ -1,3 +1,11 @@
+/*
+ * LCD.c
+ *  Layer: Hal
+ *  Created on: Dec 30, 2022
+ *      Author: Abdelrahman Hussein
+ */
+
+
 #include"DIO.h"
 #include"LCD.h"
 

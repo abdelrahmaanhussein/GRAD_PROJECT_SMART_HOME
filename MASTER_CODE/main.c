@@ -1,15 +1,15 @@
 /*
  * main.c
- *
+ *  Layer: App
  *  Created on: Apr 13, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 #include"APP.h"
 
 int main()
 {
 	/*INITIALIZING TWI*/
-	//TWI_vInitMaster(0);
+	TWI_vInitMaster(0);
 
 	/*INITIALIZING LCD*/
 	LCD_vLcdInit();
@@ -37,10 +37,10 @@ int main()
 
 
 	/*SETTING ADMIN PASSWORD*/
-    //EEPROM_WriteByte(0,admn_pass);
+    EEPROM_WriteByte(0,admn_pass);
 
 	/*SETTING USER PASSWORD*/
-	//EEPROM_WriteByte(5,usr_pass);
+	EEPROM_WriteByte(5,usr_pass);
 
 	LCD_VWriteString("WELCOME");
 	_delay_ms(1000);

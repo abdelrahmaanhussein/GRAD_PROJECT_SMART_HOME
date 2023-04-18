@@ -1,12 +1,15 @@
 /*
  * ADC.c
- *
+ *  Layer: Mcal
  *  Created on: Jan 7, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 #include"ADC.h"
 #include"LCD.h"
 #include"DIO.h"
+
+
+
 void ADC_vInit(void){
 
 	/*SETTING ADC1 AS INPUT*/

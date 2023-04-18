@@ -1,8 +1,8 @@
 /*
  * LCD.h
- *
+ *  Layer: Hal
  *  Created on: Dec 30, 2022
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 
 #ifndef LCD_H_

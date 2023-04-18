@@ -1,14 +1,213 @@
 /*
  * APP.c
- *
+ *  Layer: App
  *  Created on: Apr 13, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 #include<string.h>
 #include"APP.h"
 char ADMIN_PASS[]= "1111";
 char USER_PASS[]= "2222";
 
+void RoomControl(void)
+{
+	u8 key=0,key2=0;
+	u8 key3=0,key4=0;
+
+	LCD_vLcdClear();
+	LCD_VWriteString("1:room1 2:room2");
+
+	while(1)
+	{
+		key3 =KEYPAD_u8GetPressedKey();
+		if(key3 == '1')         // ROOM 1 ON OFF
+		{
+			LCD_vLcdClear();
+			LCD_VWriteString("r1: 1:on 2:off");
+			while(1)
+			{
+				key4=KEYPAD_u8GetPressedKey();
+				if(key4 == '1')
+				{
+					SET_BIT(PORTC,7);
+					LCD_vLcdClear();
+					break;
+				}
+				else if	(key4 == '2')
+				{
+					CLR_BIT(PORTC,7);
+					LCD_vLcdClear();
+					break;
+				}
+			}
+			break;
+		}
+		else 		if(key3 == '2') // ROOM 2 ON OFF
+		{
+			LCD_vLcdClear();
+			LCD_VWriteString("r2: 1:on 2:off");
+			while(1)
+			{
+				key4=KEYPAD_u8GetPressedKey();
+				if(key4 == '1')
+				{
+					SET_BIT(PORTC,2);
+					LCD_vLcdClear();
+					break;
+				}
+				else if	(key4 == '2')
+				{
+					CLR_BIT(PORTC,2);
+					LCD_vLcdClear();
+					break;
+				}
+			}
+			break;
+		}
+	}
+
+
+
+}
+
+void Modules(void)
+{
+	u8 key=0,key2=0;
+	u8 key3=0,key4=0;
+	u8 temperature;
+	LCD_vLcdClear();
+	LCD_VWriteString("1:ac 2:door 3:dim");
+
+	while(1)
+	{
+		key3 =KEYPAD_u8GetPressedKey();
+		if(key3 == '1')         // AC CONTROL
+		{
+			temperature =ADC_vGetAnalogVal(ADC1);
+			LCD_vLcdClear();
+			LCD_vNumToString(temperature);
+			while(1)
+			{
+				temperature =ADC_vGetAnalogVal(ADC1);
+				if(temperature >30)
+				{
+
+					SET_BIT(PORTC,0);
+					//LCD_vLcdClear();
+					LCD_vNumToString(temperature);
+					LCD_vLcdGoto(0,0);
+					//break;
+				}
+				else if	(temperature <30)
+				{
+					CLR_BIT(PORTC,0);
+					//LCD_vLcdClear();
+					LCD_vNumToString(temperature);
+					LCD_vLcdGoto(0,0);
+					//break;
+				}
+				if(temperature==0)
+				{
+					break;
+
+				}
+			}
+			break;
+		}
+		else 		if(key3 == '2') // DOOR CONTROL
+		{
+
+			LCD_vLcdClear();
+			LCD_VWriteString("door: 1:open");
+			while(1)
+			{
+				key4=KEYPAD_u8GetPressedKey();
+				if(key4 == '1')
+				{
+					LCD_vLcdClear();
+					LCD_vWriteCharacter(key4);
+					while(1)
+					{
+
+						for(u8 index=0;index<21;index++)
+						{
+							TIMER0_CALLBACK(SERVO_CTC);
+							_delay_ms(100);
+						}
+
+						if(GET_BIT(PIND,7))
+						{
+							break;
+						}
+					}
+					LCD_vLcdClear();
+					break;
+				}
+
+			}
+			break;
+		}
+		else 		if(key3 == '3') // DIMMER CONTROL
+		{
+
+			LCD_vLcdClear();
+			LCD_VWriteString("dimmer control");
+			_delay_ms(20000);
+			LCD_vLcdClear();
+
+
+			break;
+		}
+	}
+
+}
+void AdminControl(void)
+{
+	u8 key=0,key2=0;
+	u8 key3=0,key4=0;
+	LCD_vLcdClear();
+		LCD_vWriteCharacter(key);
+		_delay_ms(500);
+		LCD_vLcdClear();
+		CheckAdminPassword();
+
+		LCD_vLcdClear();
+		LCD_VWriteString("1:choose room");
+		LCD_vLcdGoto(Second_Line,0);
+		LCD_VWriteString("2:more");
+		while(1)
+		{
+			key2=KEYPAD_u8GetPressedKey();
+			if(key2=='1')           // ADMIN ROOM CONTROL
+			{
+				RoomControl();
+				break;
+			}
+			else if (key2=='2')    // AC-DOOR-DIM CONTROL
+			{
+				Modules();
+				break;
+			}
+		}
+
+}
+void UserControl(void)
+{
+	u8 key=0,key2=0;
+	u8 key3=0,key4=0;
+	LCD_vLcdClear();
+	LCD_vWriteCharacter(key);
+	_delay_ms(1000);
+	LCD_vLcdClear();
+	CheckUserPassword();
+
+
+	LCD_vLcdClear();
+
+
+	 RoomControl();
+
+}
 void CheckAdminPassword(void)
 {
 	u8 password[5];
@@ -116,244 +315,3 @@ void CheckUserPassword(void)
 	}
 
 }
-
-void APP(void)
-{
-
-	u8 key=0,key2=0;
-	u8 key3=0,key4=0;
-	u32 temperature;
-	LCD_VWriteString("1:admin  2:user");
-	while(1)
-	{
-		key=KEYPAD_u8GetPressedKey();
-		if(key=='1')                /// ADMIN CONTROL
-		{
-			LCD_vLcdClear();
-			LCD_vWriteCharacter(key);
-			_delay_ms(500);
-			LCD_vLcdClear();
-			CheckAdminPassword();
-
-			LCD_vLcdClear();
-			LCD_VWriteString("1:choose room");
-			LCD_vLcdGoto(Second_Line,0);
-			LCD_VWriteString("2:more");
-			while(1)
-			{
-				key2=KEYPAD_u8GetPressedKey();
-				if(key2=='1')           // ADMIN ROOM CONTROL
-				{
-					LCD_vLcdClear();
-					LCD_VWriteString("1:room1 2:room2");
-
-					while(1)
-					{
-						key3 =KEYPAD_u8GetPressedKey();
-						if(key3 == '1')         // ROOM 1 ON OFF
-						{
-							LCD_vLcdClear();
-							LCD_VWriteString("r1: 1:on 2:off");
-							while(1)
-							{
-								key4=KEYPAD_u8GetPressedKey();
-								if(key4 == '1')
-								{
-									SET_BIT(PORTC,7);
-									LCD_vLcdClear();
-									break;
-								}
-								else if	(key4 == '2')
-								{
-									CLR_BIT(PORTC,7);
-									LCD_vLcdClear();
-									break;
-								}
-							}
-							break;
-						}
-						else 		if(key3 == '2') // ROOM 2 ON OFF
-						{
-							LCD_vLcdClear();
-							LCD_VWriteString("r2: 1:on 2:off");
-							while(1)
-							{
-								key4=KEYPAD_u8GetPressedKey();
-								if(key4 == '1')
-								{
-									SET_BIT(PORTC,2);
-									LCD_vLcdClear();
-									break;
-								}
-								else if	(key4 == '2')
-								{
-									CLR_BIT(PORTC,2);
-									LCD_vLcdClear();
-									break;
-								}
-							}
-							break;
-						}
-					}
-					break;
-				}
-				else if (key2=='2')    // AC-DOOR-DIM CONTROL
-				{
-					LCD_vLcdClear();
-					LCD_VWriteString("1:ac 2:door 3:dim");
-
-					while(1)
-					{
-						key3 =KEYPAD_u8GetPressedKey();
-						if(key3 == '1')         // AC CONTROL
-						{
-							temperature =ADC_vGetAnalogVal(ADC1);
-							LCD_vLcdClear();
-							LCD_vNumToString(temperature);
-							while(1)
-							{
-								temperature =ADC_vGetAnalogVal(ADC1);
-								if(temperature >30)
-								{
-
-									SET_BIT(PORTC,0);
-									//LCD_vLcdClear();
-									LCD_vNumToString(temperature);
-									LCD_vLcdGoto(0,0);
-									//break;
-								}
-								else if	(temperature <30)
-								{
-									CLR_BIT(PORTC,0);
-									//LCD_vLcdClear();
-									LCD_vNumToString(temperature);
-									LCD_vLcdGoto(0,0);
-									//break;
-								}
-								if(temperature==0)
-								{
-									break;
-
-								}
-							}
-							break;
-						}
-						else 		if(key3 == '2') // DOOR CONTROL
-						{
-
-							LCD_vLcdClear();
-							LCD_VWriteString("door: 1:open");
-							while(1)
-							{
-								key4=KEYPAD_u8GetPressedKey();
-								if(key4 == '1')
-								{
-									LCD_vLcdClear();
-									LCD_vWriteCharacter(key4);
-									while(1)
-									{
-
-										for(u8 index=0;index<21;index++)
-										{
-											TIMER0_CALLBACK(SERVO_CTC);
-											_delay_ms(100);
-										}
-
-										if(GET_BIT(PIND,7))
-										{
-											break;
-										}
-									}
-									LCD_vLcdClear();
-									break;
-								}
-
-							}
-							break;
-						}
-						else 		if(key3 == '3') // DIMMER CONTROL
-						{
-
-							LCD_vLcdClear();
-							LCD_VWriteString("dimmer control");
-					        _delay_ms(20000);
-							LCD_vLcdClear();
-
-
-							break;
-						}
-					}
-					break;
-				}
-			}
-			break;
-		}
-		else if (key=='2')   // USER ROOM CONTROL
-		{
-			LCD_vLcdClear();
-			LCD_vWriteCharacter(key);
-			_delay_ms(1000);
-			LCD_vLcdClear();
-			CheckUserPassword();
-
-
-			LCD_vLcdClear();
-			LCD_VWriteString("1:room1 2:room2");
-
-			while(1)
-			{
-				key3 =KEYPAD_u8GetPressedKey();
-				if(key3 == '1')       //     ROOM 1 ON OFF
-				{
-					LCD_vLcdClear();
-					LCD_VWriteString("r1: 1:on 2:off");
-					while(1)
-					{
-						key4=KEYPAD_u8GetPressedKey();
-						if(key4 == '1')
-						{
-							SET_BIT(PORTC,7);
-							LCD_vLcdClear();
-							break;
-						}
-						else if	(key4 == '2')
-						{
-							CLR_BIT(PORTC,7);
-							LCD_vLcdClear();
-							break;
-						}
-					}
-					break;
-				}
-				else if(key3 == '2')       //     ROOM 2 ON OFF
-				{
-					LCD_vLcdClear();
-					LCD_VWriteString("r2: 1:on 2:off");
-					while(1)
-					{
-						key4=KEYPAD_u8GetPressedKey();
-						if(key4 == '1')
-						{
-							SET_BIT(PORTC,2);
-							LCD_vLcdClear();
-							break;
-						}
-						else if	(key4 == '2')
-						{
-							CLR_BIT(PORTC,2);
-							LCD_vLcdClear();
-							break;
-						}
-					}
-					break;
-				}
-			}
-			break;
-		}
-	}
-
-
-}
-
-
-

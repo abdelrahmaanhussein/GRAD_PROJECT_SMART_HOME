@@ -6,6 +6,7 @@
 C_SRCS += \
 ../ADC.c \
 ../APP.c \
+../APPmain.c \
 ../DIO.c \
 ../EEPROM.c \
 ../Keypad.c \
@@ -21,6 +22,7 @@ C_SRCS += \
 OBJS += \
 ./ADC.o \
 ./APP.o \
+./APPmain.o \
 ./DIO.o \
 ./EEPROM.o \
 ./Keypad.o \
@@ -36,6 +38,7 @@ OBJS += \
 C_DEPS += \
 ./ADC.d \
 ./APP.d \
+./APPmain.d \
 ./DIO.d \
 ./EEPROM.d \
 ./Keypad.d \

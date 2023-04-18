@@ -38,9 +38,6 @@ GRAD_SMART_HOME_MASTER.hex \
 SIZEDUMMY += \
 sizedummy \
 
-AVRDUDEDUMMY += \
-avrdudedummy \
-
 
 # All Target
 all: GRAD_SMART_HOME_MASTER.elf secondary-outputs
@@ -71,18 +68,12 @@ sizedummy: GRAD_SMART_HOME_MASTER.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
-avrdudedummy: GRAD_SMART_HOME_MASTER.elf
-	@echo 'Invoking: AVRDude'
-	D:\EMBEDDED SYSTEMS\AMIT\5-MICROCONTROLLER INTERFACING\avr kit\SDK_Win_64\SDK_Win_64\WinAVR\bin\avrdude -pm32 -cusbasp -Uflash:w:GRAD_SMART_HOME_MASTER.hex:a
-	@echo 'Finished building: $@'
-	@echo ' '
-
 # Other Targets
 clean:
-	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(AVRDUDEDUMMY)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) GRAD_SMART_HOME_MASTER.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) GRAD_SMART_HOME_MASTER.elf
 	-@echo ' '
 
-secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY) $(AVRDUDEDUMMY)
+secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)
 
 .PHONY: all clean dependents
 .SECONDARY:

@@ -1,3 +1,11 @@
+/*
+ * UART.c
+ *  Layer: Mcal
+ *  Created on: Mar 14, 2023
+ *      Author: Abdelrahman Hussein
+ */
+
+
 #include"UART.h"
 void UART_vInit(void){
 UBRRL=103;            // SETTING BAUD RATE TO 9600

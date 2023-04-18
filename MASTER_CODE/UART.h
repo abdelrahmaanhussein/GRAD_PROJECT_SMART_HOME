@@ -1,8 +1,8 @@
 /*
  * UART.h
- *
+ *  Layer: Mcal
  *  Created on: Feb 6, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 
 #ifndef UART_H_

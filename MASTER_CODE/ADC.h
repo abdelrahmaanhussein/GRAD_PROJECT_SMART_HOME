@@ -1,8 +1,8 @@
 /*
  * ADC.h
- *
+ *  Layer: Mcal
  *  Created on: Jan 7, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 
 #ifndef ADC_H_

@@ -1,17 +1,17 @@
 /*
  * TIMER0.c
- *
+ *  Layer: Mcal
  *  Created on: Jan 13, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 #include"TIMER0.h"
 void TIMER0_vTimer0Init(void){
-//#if TIMER_MODE == NORMAL_MODE
-//	TCCR0=0b10000101;  // NORMAL MODE- NO PWM - 1024 PRESCALER
-//#elif 	TIMER_MODE == CTC_MODE
-//	TCCR0=0b00001011;  // CTC MODE- NO PWM - 64 PRESCALE
-//#endif
+#if TIMER_MODE == NORMAL_MODE
 	TCCR0=0b10000011;  // NORMAL MODE- NO PWM - 64 PRESCALER
+#elif 	TIMER_MODE == CTC_MODE
+	TCCR0=0b00001011;  // CTC MODE- NO PWM - 64 PRESCALE
+#endif
+
 	CLR_BIT(TCCR0,4);
 	CLR_BIT(TCCR0,5);
 	SET_BIT(TCCR0,3);

@@ -1,8 +1,8 @@
 /*
  * APP.h
- *
+ *  Layer: App
  *  Created on: Apr 13, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 
 #ifndef APP_H_
@@ -33,6 +33,10 @@
 #define InitDimmer SET_BIT(DDRA,2)
 
 
+void RoomControl(void);
+void Modules(void);
+void AdminControl(void);
+void UserControl(void);
 void AdminUserControl(void);
 void CheckAdminPassword(void);
 void CheckUserPassword(void);

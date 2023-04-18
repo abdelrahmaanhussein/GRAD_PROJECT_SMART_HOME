@@ -1,8 +1,8 @@
 /*
  * TIMER0.h
- *
+ *  Layer: Mcal
  *  Created on: Jan 13, 2023
- *      Author: KIT
+ *      Author: Abdelrahman Hussein
  */
 
 #ifndef TIMER0_H_
